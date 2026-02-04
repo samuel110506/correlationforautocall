@@ -8,8 +8,7 @@ import seaborn as sns
 import itertools
 
 def récupération():
-    chemin = r"C:\Users\SamuelZeitoun\OneDrive - KMB Capital ltd\Programme Python\Liste stocks.xlsx"
-    df = pd.read_excel(chemin)
+    df = pd.read_excel("Liste stocks.xlsx")
     df['Nom du stock'] = df["Nom de l'entreprise"] + " (" + df['Ticker Yahoo Finance'] + ")"
     return df
     
@@ -105,3 +104,4 @@ if len(selection) > 0:
     else:
         st.warning("Aucun panier ne respecte le critère de 0.4 minimum entre chaque actif.")
                          
+
