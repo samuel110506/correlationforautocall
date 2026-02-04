@@ -1,0 +1,8 @@
+numpy
+matplotlib.pyplot
+pandas
+yfinance
+streamlit
+matplotlib.colors
+seaborn
+itertools
