@@ -2,8 +2,8 @@ numpy
 matplotlib
 pandas
 yfinance
-streamlit
 openpyxl
-altair
+streamlit>=1.35.0
+altair<5.0.0
 
 
