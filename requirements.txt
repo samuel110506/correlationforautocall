@@ -3,4 +3,4 @@ matplotlib
 pandas
 yfinance
 streamlit
-itertools
+
