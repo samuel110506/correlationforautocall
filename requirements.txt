@@ -1,8 +1,6 @@
 numpy
-matplotlib.pyplot
+matplotlib
 pandas
 yfinance
 streamlit
-matplotlib.colors
-seaborn
 itertools
